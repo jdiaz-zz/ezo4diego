@@ -15,11 +15,12 @@ import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoStarbucks from '@/images/logos/starbucks.svg'
-import image1 from '@/images/photos/image-1.png'
-import image2 from '@/images/photos/image-2.png'
-import image3 from '@/images/photos/image-3.png'
-import image4 from '@/images/photos/image-4.png'
-import image5 from '@/images/photos/image-5.png'
+import image1 from '@/images/photos/image-1.jpg'
+import image2 from '@/images/photos/image-2.jpg'
+import image3 from '@/images/photos/image-3.jpg'
+import image4 from '@/images/photos/image-4.jpg'
+import image5 from '@/images/photos/image-6.jpg'
+import zelle from '@/images/photos/Zelle.jpg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
 
@@ -363,6 +364,9 @@ export default async function Home() {
             </p>
             <p>
               To contribute, please send your donation to the following Zelle account: <strong>Ezo4Diego@gmail.com</strong>.
+              <Image src={zelle} alt="Zelle QR code for Ezo4Diego@gmail.com" 
+                sizes="(max-width: 640px) 18rem, 11rem"
+                className='w-sm' />
             </p>
             <p>
               Your generosity will make a meaningful difference in Diego's life and help him reach his educational goals. Thank you for your support and for honoring Manuel's legacy.

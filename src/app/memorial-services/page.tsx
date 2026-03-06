@@ -109,11 +109,11 @@ export default function MemorialServices() {
         </MemorialSection>
 
         <MemorialSection title="Updates and family notes">
-          <MemorialDetail title="Additional arrangements">
-            The omega ceremony and donation details are still being finalized.
+            <MemorialDetail title="Additional arrangements">
+            Additional details and arrangements are still being finalized.
             We will share updates as soon as plans are confirmed. Your patience
             and understanding mean a great deal to our family.
-          </MemorialDetail>
+            </MemorialDetail>
           <MemorialDetail title="A note of gratitude">
             In a moment like this, every message, prayer, and act of kindness
             has helped carry us forward. Thank you for keeping our loved one in
