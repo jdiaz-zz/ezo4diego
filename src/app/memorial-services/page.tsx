@@ -65,7 +65,7 @@ export const metadata: Metadata = {
 export default function MemorialServices() {
   return (
     <SimpleLayout
-      title="Memorial service details"
+      title="Memorial Service Details"
       intro="Thank you to everyone for your support, prayers, and kindness during this difficult time. We are deeply grateful for everyone who has reached out and for all those planning to attend."
     >
       <div className="space-y-20">
