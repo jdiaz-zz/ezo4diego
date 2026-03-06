@@ -121,11 +121,9 @@ function MobileNavigation(
         </div>
         <nav className="mt-6">
           <ul className="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
-            <MobileNavItem href="/about">About</MobileNavItem>
-            <MobileNavItem href="/articles">Articles</MobileNavItem>
-            <MobileNavItem href="/projects">Projects</MobileNavItem>
-            <MobileNavItem href="/speaking">Speaking</MobileNavItem>
-            <MobileNavItem href="/uses">Uses</MobileNavItem>
+            <MobileNavItem href="/memorial-services">Memorial Services</MobileNavItem>
+            <MobileNavItem href="/in-memory-of-ezo">In Memory Of Ezo</MobileNavItem>
+            <MobileNavItem href="/scholarship-fund">Scholarship Fund</MobileNavItem>
           </ul>
         </nav>
       </PopoverPanel>
